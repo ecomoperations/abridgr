@@ -1,11 +1,21 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-//= depend_on_asset "background-mai.jpg"
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Droid+Serif:400,400italic,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 /* line 13, ../sass/_type.sass */
+/* line 13, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 body,
 button,
 input,
@@ -17,6 +27,7 @@ textarea {
 }
 
 /* line 22, ../sass/_type.sass */
+/* line 20, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 p {
   margin-bottom: 30px;
   font-family: "Droid Serif", serif;
@@ -25,8 +36,10 @@ p {
   line-height: 24px;
   line-height: 2.4rem;
 }
+
 @media (min-width: 768px) {
   /* line 22, ../sass/_type.sass */
+  /* line 30, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   p {
     font-size: 20px;
     font-size: 2rem;
@@ -36,6 +49,7 @@ p {
 }
 @media (min-width: 992px) {
   /* line 22, ../sass/_type.sass */
+  /* line 39, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   p {
     font-size: 22px;
     font-size: 2.2rem;
@@ -43,14 +57,16 @@ p {
     line-height: 3.2rem;
   }
 }
-
 /* line 35, ../sass/_type.sass */
+/* line 48, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 a {
   text-decoration: none;
   color: white;
   border-bottom: solid 1px #fafafa;
 }
+
 /* line 40, ../sass/_type.sass */
+/* line 54, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 a:hover {
   color: #4761e2;
   text-decoration: none;
@@ -61,6 +77,7 @@ a:hover {
 }
 
 /* line 45, ../sass/_type.sass */
+/* line 65, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 h1,
 h2 {
   font-family: "Source Sans Pro", sans-serif;
@@ -68,18 +85,21 @@ h2 {
 }
 
 /* line 50, ../sass/_type.sass */
+/* line 71, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 h1 {
   font-size: 38px;
   font-size: 3.8rem;
 }
 
 /* line 53, ../sass/_type.sass */
+/* line 77, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 h2 {
   font-size: 32px;
   font-size: 3.2rem;
 }
 
 /* line 57, ../sass/_type.sass */
+/* line 83, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 h3 {
   font-size: 26px;
   font-size: 2.6rem;
@@ -87,21 +107,25 @@ h3 {
 }
 
 /* line 61, ../sass/_type.sass */
+/* line 90, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 h4 {
   font-family: "Droid Serif", serif;
 }
 
 /* line 64, ../sass/_type.sass */
+/* line 95, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 b {
   font-weight: 700;
 }
 
 /* line 66, ../sass/_type.sass */
+/* line 100, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 i {
   font-style: italic;
 }
 
 /* line 68, ../sass/_type.sass */
+/* line 106, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 ul,
 ol {
   margin-bottom: 20px;
@@ -109,18 +133,22 @@ ol {
   font-size: 16px;
   font-size: 1.6rem;
 }
+
 /* line 74, ../sass/_type.sass */
+/* line 114, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 ul li,
 ol li {
   margin: 5px 0;
 }
 
 /* line 77, ../sass/_type.sass */
+/* line 119, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
 }
 
 /* line 1, ../sass/_animate.scss */
+/* line 124, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .animated {
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
@@ -135,6 +163,7 @@ ol li {
 }
 
 /* line 1, ../sass/_animate.scss */
+/* line 138, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .animated.hinge {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
@@ -145,11 +174,13 @@ ol li {
 
 @-webkit-keyframes fadeIn {
   /* line 2, ../sass/_animate.scss */
+  /* line 148, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
   }
 
   /* line 2, ../sass/_animate.scss */
+  /* line 153, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
   }
@@ -157,11 +188,13 @@ ol li {
 
 @-moz-keyframes fadeIn {
   /* line 6, ../sass/_animate.scss */
+  /* line 160, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
   }
 
   /* line 7, ../sass/_animate.scss */
+  /* line 165, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
   }
@@ -169,11 +202,13 @@ ol li {
 
 @-o-keyframes fadeIn {
   /* line 11, ../sass/_animate.scss */
+  /* line 172, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
   }
 
   /* line 12, ../sass/_animate.scss */
+  /* line 177, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
   }
@@ -181,17 +216,20 @@ ol li {
 
 @keyframes fadeIn {
   /* line 16, ../sass/_animate.scss */
+  /* line 184, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
   }
 
   /* line 17, ../sass/_animate.scss */
+  /* line 189, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
   }
 }
 
 /* line 20, ../sass/_animate.scss */
+/* line 195, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeIn {
   -webkit-animation-name: fadeIn;
   -moz-animation-name: fadeIn;
@@ -201,12 +239,14 @@ ol li {
 
 @-webkit-keyframes fadeInUp {
   /* line 27, ../sass/_animate.scss */
+  /* line 204, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px);
   }
 
   /* line 32, ../sass/_animate.scss */
+  /* line 210, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -215,12 +255,14 @@ ol li {
 
 @-moz-keyframes fadeInUp {
   /* line 39, ../sass/_animate.scss */
+  /* line 218, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -moz-transform: translateY(20px);
   }
 
   /* line 44, ../sass/_animate.scss */
+  /* line 224, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
@@ -229,12 +271,14 @@ ol li {
 
 @-o-keyframes fadeInUp {
   /* line 51, ../sass/_animate.scss */
+  /* line 232, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -o-transform: translateY(20px);
   }
 
   /* line 56, ../sass/_animate.scss */
+  /* line 238, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -o-transform: translateY(0);
@@ -243,12 +287,14 @@ ol li {
 
 @keyframes fadeInUp {
   /* line 63, ../sass/_animate.scss */
+  /* line 246, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     transform: translateY(20px);
   }
 
   /* line 68, ../sass/_animate.scss */
+  /* line 252, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -256,6 +302,7 @@ ol li {
 }
 
 /* line 74, ../sass/_animate.scss */
+/* line 259, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   -moz-animation-name: fadeInUp;
@@ -265,12 +312,14 @@ ol li {
 
 @-webkit-keyframes fadeInDown {
   /* line 81, ../sass/_animate.scss */
+  /* line 268, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
   }
 
   /* line 86, ../sass/_animate.scss */
+  /* line 274, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -279,12 +328,14 @@ ol li {
 
 @-moz-keyframes fadeInDown {
   /* line 93, ../sass/_animate.scss */
+  /* line 282, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -moz-transform: translateY(-20px);
   }
 
   /* line 98, ../sass/_animate.scss */
+  /* line 288, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
@@ -293,12 +344,14 @@ ol li {
 
 @-o-keyframes fadeInDown {
   /* line 105, ../sass/_animate.scss */
+  /* line 296, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -o-transform: translateY(-20px);
   }
 
   /* line 110, ../sass/_animate.scss */
+  /* line 302, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -o-transform: translateY(0);
@@ -307,12 +360,14 @@ ol li {
 
 @keyframes fadeInDown {
   /* line 117, ../sass/_animate.scss */
+  /* line 310, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     transform: translateY(-20px);
   }
 
   /* line 122, ../sass/_animate.scss */
+  /* line 316, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -320,6 +375,7 @@ ol li {
 }
 
 /* line 128, ../sass/_animate.scss */
+/* line 323, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   -moz-animation-name: fadeInDown;
@@ -329,12 +385,14 @@ ol li {
 
 @-webkit-keyframes fadeInLeft {
   /* line 135, ../sass/_animate.scss */
+  /* line 332, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
   }
 
   /* line 140, ../sass/_animate.scss */
+  /* line 338, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -343,12 +401,14 @@ ol li {
 
 @-moz-keyframes fadeInLeft {
   /* line 147, ../sass/_animate.scss */
+  /* line 346, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -moz-transform: translateX(-20px);
   }
 
   /* line 152, ../sass/_animate.scss */
+  /* line 352, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -moz-transform: translateX(0);
@@ -357,12 +417,14 @@ ol li {
 
 @-o-keyframes fadeInLeft {
   /* line 159, ../sass/_animate.scss */
+  /* line 360, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -o-transform: translateX(-20px);
   }
 
   /* line 164, ../sass/_animate.scss */
+  /* line 366, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -o-transform: translateX(0);
@@ -371,12 +433,14 @@ ol li {
 
 @keyframes fadeInLeft {
   /* line 171, ../sass/_animate.scss */
+  /* line 374, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     transform: translateX(-20px);
   }
 
   /* line 176, ../sass/_animate.scss */
+  /* line 380, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -384,6 +448,7 @@ ol li {
 }
 
 /* line 182, ../sass/_animate.scss */
+/* line 387, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   -moz-animation-name: fadeInLeft;
@@ -393,12 +458,14 @@ ol li {
 
 @-webkit-keyframes fadeInRight {
   /* line 189, ../sass/_animate.scss */
+  /* line 396, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -webkit-transform: translateX(20px);
   }
 
   /* line 194, ../sass/_animate.scss */
+  /* line 402, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -407,12 +474,14 @@ ol li {
 
 @-moz-keyframes fadeInRight {
   /* line 201, ../sass/_animate.scss */
+  /* line 410, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -moz-transform: translateX(20px);
   }
 
   /* line 206, ../sass/_animate.scss */
+  /* line 416, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -moz-transform: translateX(0);
@@ -421,12 +490,14 @@ ol li {
 
 @-o-keyframes fadeInRight {
   /* line 213, ../sass/_animate.scss */
+  /* line 424, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -o-transform: translateX(20px);
   }
 
   /* line 218, ../sass/_animate.scss */
+  /* line 430, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -o-transform: translateX(0);
@@ -435,12 +506,14 @@ ol li {
 
 @keyframes fadeInRight {
   /* line 225, ../sass/_animate.scss */
+  /* line 438, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     transform: translateX(20px);
   }
 
   /* line 230, ../sass/_animate.scss */
+  /* line 444, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -448,6 +521,7 @@ ol li {
 }
 
 /* line 236, ../sass/_animate.scss */
+/* line 451, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
   -moz-animation-name: fadeInRight;
@@ -457,12 +531,14 @@ ol li {
 
 @-webkit-keyframes fadeInDownBig {
   /* line 243, ../sass/_animate.scss */
+  /* line 460, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
   }
 
   /* line 248, ../sass/_animate.scss */
+  /* line 466, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -471,12 +547,14 @@ ol li {
 
 @-moz-keyframes fadeInDownBig {
   /* line 255, ../sass/_animate.scss */
+  /* line 474, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -moz-transform: translateY(-2000px);
   }
 
   /* line 260, ../sass/_animate.scss */
+  /* line 480, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -moz-transform: translateY(0);
@@ -485,12 +563,14 @@ ol li {
 
 @-o-keyframes fadeInDownBig {
   /* line 267, ../sass/_animate.scss */
+  /* line 488, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     -o-transform: translateY(-2000px);
   }
 
   /* line 272, ../sass/_animate.scss */
+  /* line 494, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     -o-transform: translateY(0);
@@ -499,12 +579,14 @@ ol li {
 
 @keyframes fadeInDownBig {
   /* line 279, ../sass/_animate.scss */
+  /* line 502, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 0;
     transform: translateY(-2000px);
   }
 
   /* line 284, ../sass/_animate.scss */
+  /* line 508, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -512,6 +594,7 @@ ol li {
 }
 
 /* line 290, ../sass/_animate.scss */
+/* line 515, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
   -moz-animation-name: fadeInDownBig;
@@ -521,11 +604,13 @@ ol li {
 
 @-webkit-keyframes fadeOut {
   /* line 297, ../sass/_animate.scss */
+  /* line 524, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
   }
 
   /* line 298, ../sass/_animate.scss */
+  /* line 529, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
   }
@@ -533,11 +618,13 @@ ol li {
 
 @-moz-keyframes fadeOut {
   /* line 302, ../sass/_animate.scss */
+  /* line 536, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
   }
 
   /* line 303, ../sass/_animate.scss */
+  /* line 541, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
   }
@@ -545,11 +632,13 @@ ol li {
 
 @-o-keyframes fadeOut {
   /* line 307, ../sass/_animate.scss */
+  /* line 548, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
   }
 
   /* line 308, ../sass/_animate.scss */
+  /* line 553, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
   }
@@ -557,17 +646,20 @@ ol li {
 
 @keyframes fadeOut {
   /* line 312, ../sass/_animate.scss */
+  /* line 560, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
   }
 
   /* line 313, ../sass/_animate.scss */
+  /* line 565, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
   }
 }
 
 /* line 316, ../sass/_animate.scss */
+/* line 571, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeOut {
   -webkit-animation-name: fadeOut;
   -moz-animation-name: fadeOut;
@@ -577,12 +669,14 @@ ol li {
 
 @-webkit-keyframes fadeOutUp {
   /* line 323, ../sass/_animate.scss */
+  /* line 580, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 
   /* line 328, ../sass/_animate.scss */
+  /* line 586, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
@@ -591,12 +685,14 @@ ol li {
 
 @-moz-keyframes fadeOutUp {
   /* line 334, ../sass/_animate.scss */
+  /* line 594, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
 
   /* line 339, ../sass/_animate.scss */
+  /* line 600, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -moz-transform: translateY(-20px);
@@ -605,12 +701,14 @@ ol li {
 
 @-o-keyframes fadeOutUp {
   /* line 345, ../sass/_animate.scss */
+  /* line 608, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -o-transform: translateY(0);
   }
 
   /* line 350, ../sass/_animate.scss */
+  /* line 614, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -o-transform: translateY(-20px);
@@ -619,12 +717,14 @@ ol li {
 
 @keyframes fadeOutUp {
   /* line 356, ../sass/_animate.scss */
+  /* line 622, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     transform: translateY(0);
   }
 
   /* line 361, ../sass/_animate.scss */
+  /* line 628, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     transform: translateY(-20px);
@@ -632,6 +732,7 @@ ol li {
 }
 
 /* line 367, ../sass/_animate.scss */
+/* line 635, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeOutUp {
   -webkit-animation-name: fadeOutUp;
   -moz-animation-name: fadeOutUp;
@@ -641,12 +742,14 @@ ol li {
 
 @-webkit-keyframes fadeOutDown {
   /* line 374, ../sass/_animate.scss */
+  /* line 644, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -webkit-transform: translateY(0);
   }
 
   /* line 379, ../sass/_animate.scss */
+  /* line 650, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -655,12 +758,14 @@ ol li {
 
 @-moz-keyframes fadeOutDown {
   /* line 386, ../sass/_animate.scss */
+  /* line 658, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -moz-transform: translateY(0);
   }
 
   /* line 391, ../sass/_animate.scss */
+  /* line 664, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -moz-transform: translateY(20px);
@@ -669,12 +774,14 @@ ol li {
 
 @-o-keyframes fadeOutDown {
   /* line 398, ../sass/_animate.scss */
+  /* line 672, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -o-transform: translateY(0);
   }
 
   /* line 403, ../sass/_animate.scss */
+  /* line 678, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -o-transform: translateY(20px);
@@ -683,12 +790,14 @@ ol li {
 
 @keyframes fadeOutDown {
   /* line 410, ../sass/_animate.scss */
+  /* line 686, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     transform: translateY(0);
   }
 
   /* line 415, ../sass/_animate.scss */
+  /* line 692, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     transform: translateY(20px);
@@ -696,6 +805,7 @@ ol li {
 }
 
 /* line 421, ../sass/_animate.scss */
+/* line 699, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeOutDown {
   -webkit-animation-name: fadeOutDown;
   -moz-animation-name: fadeOutDown;
@@ -705,12 +815,14 @@ ol li {
 
 @-webkit-keyframes fadeOutLeft {
   /* line 428, ../sass/_animate.scss */
+  /* line 708, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 
   /* line 433, ../sass/_animate.scss */
+  /* line 714, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -webkit-transform: translateX(-20px);
@@ -719,12 +831,14 @@ ol li {
 
 @-moz-keyframes fadeOutLeft {
   /* line 440, ../sass/_animate.scss */
+  /* line 722, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
 
   /* line 445, ../sass/_animate.scss */
+  /* line 728, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -moz-transform: translateX(-20px);
@@ -733,12 +847,14 @@ ol li {
 
 @-o-keyframes fadeOutLeft {
   /* line 452, ../sass/_animate.scss */
+  /* line 736, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -o-transform: translateX(0);
   }
 
   /* line 457, ../sass/_animate.scss */
+  /* line 742, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -o-transform: translateX(-20px);
@@ -747,12 +863,14 @@ ol li {
 
 @keyframes fadeOutLeft {
   /* line 464, ../sass/_animate.scss */
+  /* line 750, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     transform: translateX(0);
   }
 
   /* line 469, ../sass/_animate.scss */
+  /* line 756, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     transform: translateX(-20px);
@@ -760,6 +878,7 @@ ol li {
 }
 
 /* line 475, ../sass/_animate.scss */
+/* line 763, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
   -moz-animation-name: fadeOutLeft;
@@ -769,12 +888,14 @@ ol li {
 
 @-webkit-keyframes fadeOutRight {
   /* line 482, ../sass/_animate.scss */
+  /* line 772, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -webkit-transform: translateX(0);
   }
 
   /* line 487, ../sass/_animate.scss */
+  /* line 778, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -webkit-transform: translateX(20px);
@@ -783,12 +904,14 @@ ol li {
 
 @-moz-keyframes fadeOutRight {
   /* line 494, ../sass/_animate.scss */
+  /* line 786, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -moz-transform: translateX(0);
   }
 
   /* line 499, ../sass/_animate.scss */
+  /* line 792, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -moz-transform: translateX(20px);
@@ -797,12 +920,14 @@ ol li {
 
 @-o-keyframes fadeOutRight {
   /* line 506, ../sass/_animate.scss */
+  /* line 800, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     -o-transform: translateX(0);
   }
 
   /* line 511, ../sass/_animate.scss */
+  /* line 806, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     -o-transform: translateX(20px);
@@ -811,12 +936,14 @@ ol li {
 
 @keyframes fadeOutRight {
   /* line 518, ../sass/_animate.scss */
+  /* line 814, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   0% {
     opacity: 1;
     transform: translateX(0);
   }
 
   /* line 523, ../sass/_animate.scss */
+  /* line 820, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   100% {
     opacity: 0;
     transform: translateX(20px);
@@ -824,6 +951,7 @@ ol li {
 }
 
 /* line 529, ../sass/_animate.scss */
+/* line 827, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .fadeOutRight {
   -webkit-animation-name: fadeOutRight;
   -moz-animation-name: fadeOutRight;
@@ -832,13 +960,16 @@ ol li {
 }
 
 /* line 1, ../sass/partials/_bootstrap-components.sass */
+/* line 837, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-primary,
 .label-primary,
 .progress-bar-primary {
   background: #4761e2;
   border-color: #314edf;
 }
+
 /* line 7, ../sass/partials/_bootstrap-components.sass */
+/* line 844, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-primary:hover,
 .label-primary:hover,
 .progress-bar-primary:hover {
@@ -847,13 +978,16 @@ ol li {
 }
 
 /* line 11, ../sass/partials/_bootstrap-components.sass */
+/* line 852, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-success,
 .label-success,
 .progress-bar-success {
   background: #1abc9c;
   border-color: #17a689;
 }
+
 /* line 17, ../sass/partials/_bootstrap-components.sass */
+/* line 859, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-success:hover,
 .label-success:hover,
 .progress-bar-success:hover {
@@ -862,13 +996,16 @@ ol li {
 }
 
 /* line 21, ../sass/partials/_bootstrap-components.sass */
+/* line 867, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-warning,
 .label-warning,
 .progress-bar-warning {
   background: #f39c12;
   border-color: #e08e0b;
 }
+
 /* line 27, ../sass/partials/_bootstrap-components.sass */
+/* line 874, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-warning:hover,
 .label-warning:hover,
 .progress-bar-warning:hover {
@@ -877,13 +1014,16 @@ ol li {
 }
 
 /* line 31, ../sass/partials/_bootstrap-components.sass */
+/* line 882, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-danger,
 .label-danger,
 .progress-bar-danger {
   background: #e24747;
   border-color: #e03a3a;
 }
+
 /* line 37, ../sass/partials/_bootstrap-components.sass */
+/* line 889, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-danger:hover,
 .label-danger:hover,
 .progress-bar-danger:hover {
@@ -892,13 +1032,16 @@ ol li {
 }
 
 /* line 41, ../sass/partials/_bootstrap-components.sass */
+/* line 897, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-info,
 .label-info,
 .progress-bar-info {
   background: #9b59b6;
   border-color: #8f4bab;
 }
+
 /* line 47, ../sass/partials/_bootstrap-components.sass */
+/* line 904, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-info:hover,
 .label-info:hover,
 .progress-bar-info:hover {
@@ -907,6 +1050,7 @@ ol li {
 }
 
 /* line 51, ../sass/partials/_bootstrap-components.sass */
+/* line 910, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .alert-success {
   background: #dbfaf4;
   border-color: #aef4e6;
@@ -914,6 +1058,7 @@ ol li {
 }
 
 /* line 56, ../sass/partials/_bootstrap-components.sass */
+/* line 917, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .alert-warning {
   background: #fef7ec;
   border-color: #fce3bc;
@@ -921,6 +1066,7 @@ ol li {
 }
 
 /* line 61, ../sass/partials/_bootstrap-components.sass */
+/* line 924, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .alert-danger {
   background: #fef7f7;
   border-color: #fae1e1;
@@ -928,6 +1074,7 @@ ol li {
 }
 
 /* line 66, ../sass/partials/_bootstrap-components.sass */
+/* line 931, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .alert-info {
   background: #f0e7f4;
   border-color: #e6d5ed;
@@ -935,6 +1082,7 @@ ol li {
 }
 
 /* line 72, ../sass/partials/_bootstrap-components.sass */
+/* line 940, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .progress,
 .alert,
 .panel {
@@ -942,6 +1090,7 @@ ol li {
 }
 
 /* line 1, ../sass/partials/_shared.sass */
+/* line 946, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .writer-icon,
 .side-writer-icon {
   z-index: 1080;
@@ -952,12 +1101,16 @@ ol li {
   background: #333333;
   padding-top: 8px;
 }
+
 /* line 11, ../sass/partials/_shared.sass */
+/* line 957, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .writer-icon:hover,
 .side-writer-icon:hover {
   pointer: cursor;
 }
+
 /* line 14, ../sass/partials/_shared.sass */
+/* line 962, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .writer-icon span,
 .side-writer-icon span {
   height: 5px;
@@ -969,45 +1122,56 @@ ol li {
 }
 
 /* line 22, ../sass/partials/_shared.sass */
+/* line 972, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .writer-icon {
   top: 15px;
   left: 15px;
 }
 
 /* line 26, ../sass/partials/_shared.sass */
+/* line 978, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .menu-dashboard {
   top: 15px;
   left: 15px;
 }
 
 /* line 30, ../sass/partials/_shared.sass */
+/* line 984, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .meta {
   color: #b6b6b6;
   font-size: 14px;
   font-size: 1.4rem;
 }
+
 @media (min-width: 992px) {
   /* line 30, ../sass/partials/_shared.sass */
+  /* line 991, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .meta {
     font-size: 16px;
     font-size: 1.6rem;
   }
 }
 /* line 37, ../sass/partials/_shared.sass */
+/* line 997, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .meta a {
   color: #b6b6b6;
 }
+
 /* line 40, ../sass/partials/_shared.sass */
+/* line 1001, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .meta a:hover {
   color: #333337;
   border-bottom: 1px solid #b6b6b6;
 }
+
 /* line 44, ../sass/partials/_shared.sass */
+/* line 1006, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .meta i {
   font-style: normal;
 }
 
 /* line 47, ../sass/partials/_shared.sass */
+/* line 1011, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-writer {
   padding: 10px 15px;
   background: #fafafa;
@@ -1019,22 +1183,28 @@ ol li {
 }
 
 /* line 54, ../sass/partials/_shared.sass */
+/* line 1022, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-post {
   background: #4761e2;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
 }
+
 /* line 59, ../sass/partials/_shared.sass */
+/* line 1028, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-post:hover {
   background-color: #2f49ca;
   color: white;
 }
+
 /* line 63, ../sass/partials/_shared.sass */
+/* line 1033, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-post:active {
   background-color: #2b43bd;
 }
 
 /* line 66, ../sass/partials/_shared.sass */
+/* line 1038, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-like {
   padding: 13px 24px;
   background: #e24747;
@@ -1042,17 +1212,22 @@ ol li {
   font-family: "Source Sans Pro", sans-serif;
   margin-right: 20px;
 }
+
 /* line 73, ../sass/partials/_shared.sass */
+/* line 1046, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-like:hover {
   background-color: #dd3737;
   color: white;
 }
+
 /* line 76, ../sass/partials/_shared.sass */
+/* line 1051, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .btn-like:active {
   background-color: #d62929;
 }
 
 /* line 79, ../sass/partials/_shared.sass */
+/* line 1057, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .entypo-heart,
 .entypo-doc-text {
   font-style: normal;
@@ -1060,6 +1235,7 @@ ol li {
 }
 
 /* line 1, ../sass/partials/_menu.sass */
+/* line 1063, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #menu {
   position: absolute !important;
   top: -9999px !important;
@@ -1067,6 +1243,7 @@ ol li {
 }
 
 /* line 6, ../sass/partials/_menu.sass */
+/* line 1070, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .jPanelMenu-panel {
   -webkit-box-shadow: black 2px 2px 10px;
   -moz-box-shadow: black 2px 2px 10px;
@@ -1078,22 +1255,29 @@ ol li {
 }
 
 /* line 10, ../sass/partials/_menu.sass */
+/* line 1081, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #jPanelMenu-menu {
   background-color: #333337;
   overflow: hidden;
   overflow-y: hidden !important;
 }
+
 /* line 15, ../sass/partials/_menu.sass */
+/* line 1087, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #jPanelMenu-menu ul {
   padding: 10px 0;
 }
+
 /* line 18, ../sass/partials/_menu.sass */
+/* line 1091, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #jPanelMenu-menu li {
   margin: 0;
   padding: 10px 0;
   list-style: none;
 }
+
 /* line 23, ../sass/partials/_menu.sass */
+/* line 1097, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #jPanelMenu-menu li i {
   padding: 0 20px;
   color: #dadada;
@@ -1101,7 +1285,9 @@ ol li {
   font-size: 14px;
   font-size: 1.4rem;
 }
+
 /* line 28, ../sass/partials/_menu.sass */
+/* line 1105, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #jPanelMenu-menu li a {
   color: #dadada;
   font-family: "Source Sans Pro", sans-serif;
@@ -1110,18 +1296,21 @@ ol li {
   font-size: 12px;
   font-size: 1.2rem;
 }
+
 /* line 35, ../sass/partials/_menu.sass */
+/* line 1114, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #jPanelMenu-menu li a:hover {
   border-bottom: none;
   color: white;
 }
 
 /* line 1, ../sass/partials/_sidebar.sass */
+/* line 1120, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar {
   padding: 15px;
   width: 100%;
   height: 350px;
-  background: url("<%= asset_path "background-mai.jpg" %>") no-repeat center center;
+  background: url("/assets/background-mai.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1131,14 +1320,17 @@ ol li {
   -o-transition: all, 450ms;
   transition: all, 450ms;
 }
+
 @media (min-width: 768px) {
   /* line 1, ../sass/partials/_sidebar.sass */
+  /* line 1136, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .sidebar {
     height: 450px;
   }
 }
 @media (min-width: 992px) {
   /* line 1, ../sass/partials/_sidebar.sass */
+  /* line 1142, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .sidebar {
     width: 400px;
     height: 100%;
@@ -1148,23 +1340,28 @@ ol li {
 }
 @media (min-width: 1200px) {
   /* line 1, ../sass/partials/_sidebar.sass */
+  /* line 1151, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .sidebar {
     width: 464px;
   }
 }
 /* line 21, ../sass/partials/_sidebar.sass */
+/* line 1156, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar .site-info {
   padding: 90px 15px 0 15px;
   color: #fafafa;
 }
+
 @media (min-width: 768px) {
   /* line 21, ../sass/partials/_sidebar.sass */
+  /* line 1162, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .sidebar .site-info {
     padding: 180px 100px 0 100px;
   }
 }
 @media (min-width: 992px) {
   /* line 21, ../sass/partials/_sidebar.sass */
+  /* line 1168, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .sidebar .site-info {
     padding: 0 20px;
     position: absolute;
@@ -1173,18 +1370,22 @@ ol li {
 }
 @media (min-width: 1200px) {
   /* line 21, ../sass/partials/_sidebar.sass */
+  /* line 1176, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .sidebar .site-info {
     padding: 0 30px;
   }
 }
 /* line 34, ../sass/partials/_sidebar.sass */
+/* line 1181, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar .site-info h1 {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   letter-spacing: -2pt;
   margin-bottom: 0;
 }
+
 @media (min-width: 768px) {
   /* line 34, ../sass/partials/_sidebar.sass */
+  /* line 1188, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .sidebar .site-info h1 {
     letter-spacing: 0pt;
     margin-bottom: 10px;
@@ -1193,6 +1394,7 @@ ol li {
   }
 }
 /* line 43, ../sass/partials/_sidebar.sass */
+/* line 1196, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar .site-info p {
   margin-bottom: 10px;
   font-family: "Droid Serif", serif;
@@ -1202,28 +1404,37 @@ ol li {
   font-size: 16px;
   font-size: 1.6rem;
 }
+
 /* line 50, ../sass/partials/_sidebar.sass */
+/* line 1206, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar .site-info i {
   font-style: normal;
   margin-right: 10px;
 }
+
 /* line 54, ../sass/partials/_sidebar.sass */
+/* line 1211, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar .site-info .primary-info {
   border-bottom: solid 1px rgba(255, 255, 255, 0.3);
 }
+
 /* line 59, ../sass/partials/_sidebar.sass */
+/* line 1215, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar .site-info .secondary-info p {
   margin: 20px 0 0;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
 }
+
 /* line 64, ../sass/partials/_sidebar.sass */
+/* line 1222, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar .site-info .secondary-info .btn-grande {
   margin-right: 10px;
 }
 
 /* line 67, ../sass/partials/_sidebar.sass */
+/* line 1227, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar-fav {
   background: url(../img/background2.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -1233,28 +1444,34 @@ ol li {
 }
 
 /* line 1, ../sass/partials/_main-content.sass */
+/* line 1236, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .main-content {
   padding: 30px;
 }
+
 @media (min-width: 768px) {
   /* line 1, ../sass/partials/_main-content.sass */
+  /* line 1241, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .main-content {
     padding: 60px 120px;
   }
 }
 @media (min-width: 992px) {
   /* line 1, ../sass/partials/_main-content.sass */
+  /* line 1247, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .main-content {
     padding: 50px;
   }
 }
-
 /* line 9, ../sass/partials/_main-content.sass */
+/* line 1253, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .nav {
   height: 30px;
   border-bottom: solid 1px whitesmoke;
 }
+
 /* line 13, ../sass/partials/_main-content.sass */
+/* line 1258, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .nav a {
   padding: 0 0 10px 0;
   margin-right: 10px;
@@ -1266,17 +1483,22 @@ ol li {
   font-size: 12px;
   font-size: 1.2rem;
 }
+
 /* line 23, ../sass/partials/_main-content.sass */
+/* line 1270, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .nav a:hover {
   color: #333337;
 }
+
 /* line 26, ../sass/partials/_main-content.sass */
+/* line 1274, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .nav .active {
   border-bottom: solid 1px black;
   color: #333337;
 }
 
 /* line 30, ../sass/partials/_main-content.sass */
+/* line 1280, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .post {
   height: auto;
   padding: 30px 0;
@@ -1284,47 +1506,61 @@ ol li {
   overflow: hidden;
   *zoom: 1;
 }
+
 /* line 38, ../sass/partials/_main-content.sass */
+/* line 1288, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .post .post-preview h2 {
   margin-top: 0;
   font-size: 24px;
   font-size: 2.4rem;
 }
+
 @media (min-width: 992px) {
   /* line 38, ../sass/partials/_main-content.sass */
+  /* line 1295, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .post .post-preview h2 {
     font-size: 32px;
     font-size: 3.2rem;
   }
 }
 /* line 45, ../sass/partials/_main-content.sass */
+/* line 1301, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .post .post-preview h2 a {
   color: #333337;
   border: solid 0px transparent;
 }
+
 /* line 49, ../sass/partials/_main-content.sass */
+/* line 1306, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .post .post-preview h2 a:hover {
   color: #b6b6b6;
 }
+
 /* line 51, ../sass/partials/_main-content.sass */
+/* line 1310, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .post .post-preview p {
   font-family: "Droid Serif", serif;
   font-size: 16px;
   font-size: 1.6rem;
 }
+
 @media (min-width: 992px) {
   /* line 51, ../sass/partials/_main-content.sass */
+  /* line 1317, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .post .post-preview p {
     font-size: 18px;
     font-size: 1.8rem;
   }
 }
 /* line 57, ../sass/partials/_main-content.sass */
+/* line 1323, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .post img {
   width: 50px;
   height: 50px;
 }
+
 /* line 61, ../sass/partials/_main-content.sass */
+/* line 1328, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .post .user-icon {
   padding: 0;
   float: right;
@@ -1334,6 +1570,7 @@ ol li {
 }
 
 /* line 66, ../sass/partials/_main-content.sass */
+/* line 1337, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .link-spacer {
   margin: 0 2px 4px 2px;
   display: inline-block;
@@ -1346,16 +1583,20 @@ ol li {
 }
 
 /* line 74, ../sass/partials/_main-content.sass */
+/* line 1349, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .category {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 /* line 78, ../sass/partials/_main-content.sass */
+/* line 1355, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .category-preview {
   margin: 15px 0;
 }
+
 /* line 81, ../sass/partials/_main-content.sass */
+/* line 1359, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .category-preview h2 {
   margin: 0;
   padding: 10px;
@@ -1365,27 +1606,35 @@ ol li {
   font-size: 2rem;
   color: white;
 }
+
 /* line 89, ../sass/partials/_main-content.sass */
+/* line 1369, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .category-preview img {
   max-width: 100%;
 }
 
 /* line 92, ../sass/partials/_main-content.sass */
+/* line 1374, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .home-footer {
   padding: 10px 0;
 }
+
 /* line 95, ../sass/partials/_main-content.sass */
+/* line 1378, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .home-footer a {
   color: #999999;
   border-bottom: 0 transparent;
 }
+
 /* line 99, ../sass/partials/_main-content.sass */
+/* line 1383, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .home-footer a:hover {
   color: #333333;
   border-bottom: 0 transparent;
 }
 
 /* line 1, ../sass/partials/_single.sass */
+/* line 1389, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-image {
   height: 150px;
   width: 100%;
@@ -1395,55 +1644,63 @@ ol li {
   -o-background-size: cover;
   background-size: cover;
 }
+
 @media (min-width: 768px) {
   /* line 1, ../sass/partials/_single.sass */
+  /* line 1400, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .hero-image {
     height: 300px;
   }
 }
 @media (min-width: 992px) {
   /* line 1, ../sass/partials/_single.sass */
+  /* line 1406, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .hero-image {
     height: 390px;
   }
 }
 @media (min-width: 1200px) {
   /* line 1, ../sass/partials/_single.sass */
+  /* line 1412, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .hero-image {
     height: 460px;
   }
 }
-
 /* line 14, ../sass/partials/_single.sass */
+/* line 1418, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .meta {
   font-size: 12px;
   font-size: 1.2rem;
   margin-bottom: 0;
 }
+
 @media (min-width: 768px) {
   /* line 14, ../sass/partials/_single.sass */
+  /* line 1425, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .meta {
     font-size: 16px;
     font-size: 1.6rem;
   }
 }
-
 /* line 22, ../sass/partials/_single.sass */
+/* line 1432, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .subtitle {
   margin: 5px auto 20px auto;
   font-size: 20px;
   font-size: 2rem;
   font-style: italic;
 }
+
 @media (min-width: 768px) {
   /* line 22, ../sass/partials/_single.sass */
+  /* line 1440, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .subtitle {
     font-size: 24px;
     font-size: 2.4rem;
   }
 }
-
 /* line 30, ../sass/partials/_single.sass */
+/* line 1447, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 hr {
   display: block;
   width: 20%;
@@ -1452,12 +1709,14 @@ hr {
 }
 
 /* line 36, ../sass/partials/_single.sass */
+/* line 1455, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 blockquote {
   font-size: 16px;
   font-size: 1.6rem;
 }
 
 /* line 39, ../sass/partials/_single.sass */
+/* line 1461, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .pullquote {
   text-align: center;
   line-height: 28px;
@@ -1468,43 +1727,54 @@ blockquote {
 }
 
 /* line 45, ../sass/partials/_single.sass */
+/* line 1471, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-content {
   padding: 30px 8%;
 }
+
 @media (min-width: 992px) {
   /* line 45, ../sass/partials/_single.sass */
+  /* line 1476, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .single-content {
     padding: 30px 14%;
   }
 }
 @media (min-width: 1200px) {
   /* line 45, ../sass/partials/_single.sass */
+  /* line 1482, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .single-content {
     padding: 30px 18%;
   }
 }
 /* line 53, ../sass/partials/_single.sass */
+/* line 1487, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-content h1 {
   letter-spacing: -1pt;
 }
+
 @media (min-width: 768px) {
   /* line 53, ../sass/partials/_single.sass */
+  /* line 1492, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .single-content h1 {
     font-size: 44px;
     font-size: 4.4rem;
   }
 }
 /* line 58, ../sass/partials/_single.sass */
+/* line 1498, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-content h2 {
   font-size: 28px;
   font-size: 2.8rem;
 }
 
 /* line 61, ../sass/partials/_single.sass */
+/* line 1504, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer {
   padding: 40px 0;
 }
+
 /* line 64, ../sass/partials/_single.sass */
+/* line 1508, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .liked-this-icon {
   height: 40px;
   width: 40px;
@@ -1513,7 +1783,9 @@ blockquote {
   -moz-border-radius: 100%;
   border-radius: 100%;
 }
+
 /* line 70, ../sass/partials/_single.sass */
+/* line 1517, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .social-icon {
   border: 0 transparent;
   margin: 20px 0 0 10px;
@@ -1523,44 +1795,58 @@ blockquote {
   font-size: 24px;
   font-size: 2.4rem;
 }
+
 /* line 78, ../sass/partials/_single.sass */
+/* line 1527, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .social-icon i {
   font-style: normal;
 }
+
 @media (min-width: 768px) {
   /* line 70, ../sass/partials/_single.sass */
+  /* line 1532, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .single-footer .social-icon {
     margin: 0 0 0 10px;
   }
 }
 /* line 84, ../sass/partials/_single.sass */
+/* line 1537, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .category-list {
   margin: 40px 0;
 }
+
 /* line 87, ../sass/partials/_single.sass */
+/* line 1541, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .category-list p {
   display: inline;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
 }
+
 /* line 92, ../sass/partials/_single.sass */
+/* line 1548, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .category-list ul {
   padding: 0;
   display: inline;
 }
+
 /* line 96, ../sass/partials/_single.sass */
+/* line 1553, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .category-list ul li {
   margin: 0 3px;
   display: inline;
 }
+
 /* line 100, ../sass/partials/_single.sass */
+/* line 1558, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .single-footer .category-list a {
   border: 0 transparent;
   color: #4761e2;
 }
 
 /* line 104, ../sass/partials/_single.sass */
+/* line 1564, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-a-great-story {
   background: url(../img/a-great-story-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1570,6 +1856,7 @@ blockquote {
 }
 
 /* line 108, ../sass/partials/_single.sass */
+/* line 1573, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-about {
   background: url(../img/about-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1579,6 +1866,7 @@ blockquote {
 }
 
 /* line 112, ../sass/partials/_single.sass */
+/* line 1582, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-features {
   background: url(../img/features-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1588,6 +1876,7 @@ blockquote {
 }
 
 /* line 116, ../sass/partials/_single.sass */
+/* line 1591, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-hacking {
   background: url(../img/hacking-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1597,6 +1886,7 @@ blockquote {
 }
 
 /* line 120, ../sass/partials/_single.sass */
+/* line 1600, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-its-not-always {
   background: url(../img/its-not-always-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1606,6 +1896,7 @@ blockquote {
 }
 
 /* line 124, ../sass/partials/_single.sass */
+/* line 1609, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-ten-reasons {
   background: url(../img/ten-reasons-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1615,11 +1906,14 @@ blockquote {
 }
 
 /* line 1, ../sass/partials/_favorites.sass */
+/* line 1618, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .favorites {
   border-bottom: solid 1px #dedede;
   border-top: solid 1px #dedede;
 }
+
 /* line 5, ../sass/partials/_favorites.sass */
+/* line 1623, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .favorites h2 {
   margin: 10px 0;
   color: #b3b3b7;
@@ -1630,23 +1924,29 @@ blockquote {
 }
 
 /* line 14, ../sass/partials/_favorites.sass */
+/* line 1633, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .favorite-posts .post-favorite {
   padding-right: 15px;
 }
+
 @media (min-width: 992px) {
   /* line 17, ../sass/partials/_favorites.sass */
+  /* line 1638, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .favorite-posts .post-favorite h2 {
     font-size: 26px;
     font-size: 2.6rem;
   }
 }
 /* line 21, ../sass/partials/_favorites.sass */
+/* line 1644, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .favorite-posts .post-favorite h2 a {
   border-bottom: solid 0px transparent;
   color: #333337;
 }
+
 @media (min-width: 992px) {
   /* line 25, ../sass/partials/_favorites.sass */
+  /* line 1650, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .favorite-posts .post-favorite p {
     font-size: 16px;
     font-size: 1.6rem;
@@ -1654,21 +1954,27 @@ blockquote {
     line-height: 2.2rem;
   }
 }
-
 /* line 1, ../sass/partials/_stats.sass */
+/* line 1659, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .stats-content {
   margin-bottom: 100px;
 }
+
 /* line 3, ../sass/partials/_stats.sass */
+/* line 1663, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .stats-content h1 {
   margin-top: 30px;
 }
+
 /* line 5, ../sass/partials/_stats.sass */
+/* line 1667, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .stats-content i {
   font-style: normal;
   margin-right: 20px;
 }
+
 /* line 9, ../sass/partials/_stats.sass */
+/* line 1672, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .stats-content .stats-subtitle {
   font-style: italic;
   color: #b6b6b6;
@@ -1677,11 +1983,13 @@ blockquote {
 }
 
 /* line 14, ../sass/partials/_stats.sass */
+/* line 1680, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #graph-wrapper {
   margin-top: 50px;
 }
 
 /* line 17, ../sass/partials/_stats.sass */
+/* line 1688, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-container,
 .graph-container div,
 .graph-container a,
@@ -1691,6 +1999,7 @@ blockquote {
 }
 
 /* line 24, ../sass/partials/_stats.sass */
+/* line 1696, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-container,
 #tooltip,
 .graph-info a {
@@ -1701,12 +2010,15 @@ blockquote {
 
 /* Graph Container */
 /* line 30, ../sass/partials/_stats.sass */
+/* line 1704, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-container {
   position: relative;
   width: 100%;
   height: 300px;
 }
+
 /* line 35, ../sass/partials/_stats.sass */
+/* line 1710, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-container > div {
   position: absolute;
   width: 100%;
@@ -1714,6 +2026,7 @@ blockquote {
 }
 
 /* line 42, ../sass/partials/_stats.sass */
+/* line 1717, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info a {
   position: relative;
   display: inline-block;
@@ -1728,7 +2041,9 @@ blockquote {
   font-size: 1.2rem;
   color: #646464;
 }
+
 /* line 56, ../sass/partials/_stats.sass */
+/* line 1732, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info a:before {
   position: absolute;
   display: block;
@@ -1741,15 +2056,21 @@ blockquote {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+
 /* line 71, ../sass/partials/_stats.sass */
+/* line 1745, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info .visitors:before {
   background: #71c73e;
 }
+
 /* line 73, ../sass/partials/_stats.sass */
+/* line 1749, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info .returning:before {
   background: #4761e2;
 }
+
 /* line 76, ../sass/partials/_stats.sass */
+/* line 1754, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info #lines,
 .graph-info #bars {
   border: solid 0px transparent;
@@ -1758,8 +2079,10 @@ blockquote {
   float: left;
   cursor: pointer;
 }
+
 @media (min-width: 768px) {
   /* line 76, ../sass/partials/_stats.sass */
+  /* line 1764, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .graph-info #lines,
   .graph-info #bars {
     padding: 5px 10px;
@@ -1767,6 +2090,7 @@ blockquote {
   }
 }
 /* line 88, ../sass/partials/_stats.sass */
+/* line 1771, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info #lines i,
 .graph-info #bars i {
   margin: 0;
@@ -1775,13 +2099,16 @@ blockquote {
   font-size: 22px;
   font-size: 2.2rem;
 }
+
 /* line 96, ../sass/partials/_stats.sass */
+/* line 1780, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info #lines.active i,
 .graph-info #bars.active i {
   color: #333337;
 }
 
 /* line 100, ../sass/partials/_stats.sass */
+/* line 1788, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-info:before,
 .graph-info:after,
 .graph-container:before,
@@ -1792,6 +2119,7 @@ blockquote {
 }
 
 /* line 108, ../sass/partials/_stats.sass */
+/* line 1795, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 #tooltip {
   border: 1px solid #e1e1e1;
   padding: 5px 10px;
@@ -1807,6 +2135,7 @@ blockquote {
 }
 
 /* line 121, ../sass/partials/_stats.sass */
+/* line 1810, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .tickLabel {
   font-weight: bold;
   font-size: 12px;
@@ -1815,12 +2144,14 @@ blockquote {
 }
 
 /* line 127, ../sass/partials/_stats.sass */
+/* line 1819, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .yAxis .tickLabel:first-child,
 .yAxis .tickLabel:last-child {
   display: none;
 }
 
 /* line 131, ../sass/partials/_stats.sass */
+/* line 1824, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .graph-title {
   margin: 20px auto 0 auto;
   display: block;
@@ -1832,6 +2163,7 @@ blockquote {
 
 /* PIE CHARTS */
 /* line 141, ../sass/partials/_stats.sass */
+/* line 1835, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .chart {
   position: relative;
   width: 150px;
@@ -1839,7 +2171,9 @@ blockquote {
   margin: 50px;
   text-align: center;
 }
+
 /* line 148, ../sass/partials/_stats.sass */
+/* line 1843, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .chart canvas {
   position: absolute;
   top: 0;
@@ -1847,6 +2181,7 @@ blockquote {
 }
 
 /* line 153, ../sass/partials/_stats.sass */
+/* line 1850, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .percentage {
   margin: 60px auto 20px auto;
   z-index: 2;
@@ -1856,16 +2191,21 @@ blockquote {
   font-size: 24px;
   font-size: 2.4rem;
 }
+
 /* line 161, ../sass/partials/_stats.sass */
+/* line 1860, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .percentage span {
   margin-left: 15px;
 }
+
 /* line 164, ../sass/partials/_stats.sass */
+/* line 1864, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .percentage:after {
   content: "%";
 }
 
 /* line 168, ../sass/partials/_stats.sass */
+/* line 1869, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .pie-title h3 {
   text-align: center;
   font-style: italic;
@@ -1876,14 +2216,19 @@ blockquote {
 
 /* TOP POSTS */
 /* line 176, ../sass/partials/_stats.sass */
+/* line 1879, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .top-posts {
   margin-top: 100px;
 }
+
 /* line 179, ../sass/partials/_stats.sass */
+/* line 1883, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .top-posts i {
   margin-right: 10px;
 }
+
 /* line 181, ../sass/partials/_stats.sass */
+/* line 1887, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .top-posts h2 {
   margin-bottom: 40px;
   font-size: 32px;
@@ -1891,6 +2236,7 @@ blockquote {
 }
 
 /* line 185, ../sass/partials/_stats.sass */
+/* line 1895, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .view-count,
 .top-post {
   margin: 10px 0;
@@ -1900,7 +2246,9 @@ blockquote {
   font-size: 22px;
   font-size: 2.2rem;
 }
+
 /* line 193, ../sass/partials/_stats.sass */
+/* line 1905, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .view-count a,
 .top-post a {
   color: #333337;
@@ -1910,18 +2258,22 @@ blockquote {
   -o-transition: all, 250ms;
   transition: all, 250ms;
 }
+
 /* line 198, ../sass/partials/_stats.sass */
+/* line 1915, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .view-count a:hover,
 .top-post a:hover {
   color: #b6b6b6;
 }
 
 /* line 201, ../sass/partials/_stats.sass */
+/* line 1920, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .top-post {
   padding: 10px 0;
 }
 
 /* line 204, ../sass/partials/_stats.sass */
+/* line 1925, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .view-count {
   cursor: default;
   padding: 5px 10px;
@@ -1934,6 +2286,7 @@ blockquote {
 }
 
 /* line 1, ../sass/partials/_category.sass */
+/* line 1937, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar-storytime {
   background: url(../img/storytime-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1943,6 +2296,7 @@ blockquote {
 }
 
 /* line 5, ../sass/partials/_category.sass */
+/* line 1946, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar-open-roads {
   background: url(../img/open-roads-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1952,6 +2306,7 @@ blockquote {
 }
 
 /* line 9, ../sass/partials/_category.sass */
+/* line 1955, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar-easy-living {
   background: url(../img/easy-living-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1961,6 +2316,7 @@ blockquote {
 }
 
 /* line 13, ../sass/partials/_category.sass */
+/* line 1964, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .sidebar-adventure {
   background: url(../img/adventure-cover.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -1970,17 +2326,20 @@ blockquote {
 }
 
 /* line 18, ../sass/partials/_category.sass */
+/* line 1973, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .category-sidebar .site-info {
   padding-top: 160px !important;
 }
+
 @media (min-width: 768px) {
   /* line 18, ../sass/partials/_category.sass */
+  /* line 1978, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .category-sidebar .site-info {
     padding-top: 260px !important;
   }
 }
-
 /* line 1, ../sass/partials/_page-404.sass */
+/* line 1984, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-image-404 {
   position: fixed;
   top: 0;
@@ -1995,6 +2354,7 @@ blockquote {
 }
 
 /* line 10, ../sass/partials/_page-404.sass */
+/* line 1998, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .title-404 {
   margin-top: 250px;
   color: white;
@@ -2007,6 +2367,7 @@ blockquote {
 }
 
 /* line 19, ../sass/partials/_page-404.sass */
+/* line 2010, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .p-404 {
   color: white;
   text-align: center;
@@ -2015,29 +2376,36 @@ blockquote {
 }
 
 /* line 3, ../sass/_nojs.sass */
+/* line 2018, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js-menu ul {
   padding: 10px 0;
   margin-bottom: 0;
 }
+
 /* line 7, ../sass/_nojs.sass */
+/* line 2023, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js-menu li {
   margin: 0;
   padding: 3px 0;
   list-style: none;
 }
+
 @media (min-width: 768px) {
   /* line 7, ../sass/_nojs.sass */
+  /* line 2030, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js-menu li {
     padding: 5px 0;
   }
 }
 @media (min-width: 992px) {
   /* line 7, ../sass/_nojs.sass */
+  /* line 2036, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js-menu li {
     padding: 10px 0;
   }
 }
 /* line 18, ../sass/_nojs.sass */
+/* line 2041, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js-menu li i {
   padding: 0 20px;
   color: #dadada;
@@ -2045,7 +2413,9 @@ blockquote {
   font-size: 14px;
   font-size: 1.4rem;
 }
+
 /* line 23, ../sass/_nojs.sass */
+/* line 2049, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js-menu li a {
   color: #dadada;
   font-family: "Source Sans Pro", sans-serif;
@@ -2054,29 +2424,36 @@ blockquote {
   font-size: 12px;
   font-size: 1.2rem;
 }
+
 /* line 30, ../sass/_nojs.sass */
+/* line 2058, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js-menu li a:hover {
   border-bottom: none;
   color: white;
 }
 
 /* line 35, ../sass/_nojs.sass */
+/* line 2064, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hero-image .no-js-menu {
   padding-left: 50px;
 }
 
 /* line 39, ../sass/_nojs.sass */
+/* line 2069, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js .sidebar {
   height: 400px;
 }
+
 @media (min-width: 768px) {
   /* line 39, ../sass/_nojs.sass */
+  /* line 2074, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js .sidebar {
     height: 450px;
   }
 }
 @media (min-width: 992px) {
   /* line 39, ../sass/_nojs.sass */
+  /* line 2080, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js .sidebar {
     width: 400px;
     height: 100%;
@@ -2086,22 +2463,27 @@ blockquote {
 }
 @media (min-width: 1200px) {
   /* line 39, ../sass/_nojs.sass */
+  /* line 2089, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js .sidebar {
     width: 464px;
   }
 }
 /* line 54, ../sass/_nojs.sass */
+/* line 2094, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js .site-info {
   padding: 0 15px 0 15px;
 }
+
 @media (min-width: 768px) {
   /* line 54, ../sass/_nojs.sass */
+  /* line 2099, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js .site-info {
     padding: 0 100px 0 100px;
   }
 }
 @media (min-width: 992px) {
   /* line 54, ../sass/_nojs.sass */
+  /* line 2105, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js .site-info {
     padding: 0 20px;
     position: absolute;
@@ -2110,18 +2492,20 @@ blockquote {
 }
 @media (min-width: 1200px) {
   /* line 54, ../sass/_nojs.sass */
+  /* line 2113, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .no-js .site-info {
     padding: 0 30px;
   }
 }
-
 /* line 67, ../sass/_nojs.sass */
+/* line 2119, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-js-dashboard {
   margin-top: 60px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
   /* line 22, ../sass/main.sass */
+  /* line 2125, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .home-container {
     max-width: 100%;
     width: 100%;
@@ -2129,34 +2513,39 @@ blockquote {
 }
 @media (min-width: 992px) {
   /* line 22, ../sass/main.sass */
+  /* line 2132, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
   .home-container {
     margin-left: 0;
     padding-left: 0;
   }
 }
-
 /* line 32, ../sass/main.sass */
+/* line 2139, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-gutter {
   padding-left: 0;
   padding-right: 0;
 }
 
 /* line 36, ../sass/main.sass */
+/* line 2145, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-gutter-left {
   padding-left: 0;
 }
 
 /* line 39, ../sass/main.sass */
+/* line 2150, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .no-gutter-right {
   padding-right: 0;
 }
 
 /* line 42, ../sass/main.sass */
+/* line 2155, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 html {
   font-size: 62.5%;
 }
 
 /* line 45, ../sass/main.sass */
+/* line 2160, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .hide {
   position: absolute !important;
   top: -9999px !important;
@@ -2164,6 +2553,7 @@ html {
 }
 
 /* line 50, ../sass/main.sass */
+/* line 2167, /home/treehouse/projects/abridgr/app/assets/stylesheets/welcome.css.scss.erb */
 .bs-example {
   margin-bottom: 20px;
 }
