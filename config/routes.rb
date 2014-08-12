@@ -5,7 +5,7 @@ Abridgr::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-
+  get 'welcome/topics'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
