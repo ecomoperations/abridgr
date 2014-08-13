@@ -53,78 +53,26 @@
             
 
             <div class="home-page-posts animated fadeIn ">
+            <% @post.each do |post| %>
             	<div class="post">
                     <section>
                         <div class="post-preview col-xs-10  no-gutter">
 
-                        <h2><%= link_to "A great story never told", welcome_topics_path %></h2>
+                        <h2><%= link_to "#{post.title}", post_path(post) %></h2>
                         <p>It was a cold December morning, as I sat out on my porch I decided today was the day. </p>
 
                         <p class="meta">
                             <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="entypo-bookmark"></i> 23 minute read
+                            <i class="fa fa-twitter pull-right"></i><i class="fa fa-facebook pull-right" ></i>
                         </p>
                         </div>
 
-                        <div class=" col-xs-2  no-gutter">
-                            <img src="img/profile-1.jpg" class="user-icon user-1" alt="user-image">
-                        </div>
+                        
 
                     </section>
                 </div>
-                <div class="post">
-                    <section>
-                        <div class="post-preview col-xs-10  no-gutter">
-
-                        <h2><a href="post.html">A great story never told</a></h2>
-                        <p>It was a cold December morning, as I sat out on my porch I decided today was the day. </p>
-
-                        <p class="meta">
-                            <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="entypo-bookmark"></i> 23 minute read
-                        </p>
-                        </div>
-
-                        <div class=" col-xs-2  no-gutter">
-                            <img src="img/profile-1.jpg" class="user-icon user-1" alt="user-image">
-                        </div>
-
-                    </section>
-                </div>
-                <div class="post">
-                    <section>
-                        <div class="post-preview col-xs-10  no-gutter">
-
-                        <h2><a href="post.html">A great story never told</a></h2>
-                        <p>It was a cold December morning, as I sat out on my porch I decided today was the day. </p>
-
-                        <p class="meta">
-                            <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="entypo-bookmark"></i> 23 minute read
-                        </p>
-                        </div>
-
-                        <div class=" col-xs-2  no-gutter">
-                            <img src="img/profile-1.jpg" class="user-icon user-1" alt="user-image">
-                        </div>
-
-                    </section>
-                </div>
-                <div class="post">
-                    <section>
-                        <div class="post-preview col-xs-10  no-gutter">
-
-                        <h2><a href="post.html">A great story never told</a></h2>
-                        <p>It was a cold December morning, as I sat out on my porch I decided today was the day. </p>
-
-                        <p class="meta">
-                            <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="entypo-bookmark"></i> 23 minute read
-                        </p>
-                        </div>
-
-                        <div class=" col-xs-2  no-gutter">
-                            <img src="img/profile-1.jpg" class="user-icon user-1" alt="user-image">
-                        </div>
-
-                    </section>
-                </div>
+            <% end %>
+                
             </div>
             <div class="home-page-categories hide animated fadeIn ">
             	<ul class="event-list">
