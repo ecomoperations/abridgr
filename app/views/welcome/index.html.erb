@@ -59,10 +59,10 @@
                         <div class="post-preview col-xs-10  no-gutter">
 
                         <h2><%= link_to "#{post.title}", post_path(post) %></h2>
-                        <p>It was a cold December morning, as I sat out on my porch I decided today was the day. </p>
+                        <p><%= post.body %> </p>
 
                         <p class="meta">
-                            <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="entypo-bookmark"></i> 23 minute read
+                            <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= post.tag_list %>
                             <i class="fa fa-twitter pull-right"></i><i class="fa fa-facebook pull-right" ></i>
                         </p>
                         </div>
