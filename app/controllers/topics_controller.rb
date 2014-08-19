@@ -1,8 +1,9 @@
 class TopicsController < ApplicationController
 
 	def index
-		@posts = Post.tagged_with(params[:topic])
 		
+		@topics = Topic.all
+
 	end
 
 private

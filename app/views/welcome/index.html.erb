@@ -76,67 +76,25 @@
             </div>
             <div class="home-page-categories hide animated fadeIn ">
             	<ul class="event-list">
-					<li>
-						
-						<img alt="Independence Day" src="http://s2.postimg.org/5xj4dl2ux/bourbon_cocktail.jpg" />
-						<div class="info">
-							<h2 class="title">Independence Day</h2>
-							<p class="desc">United States Holiday</p>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
+            		<% @topics.each do |t| %>
+						<li>
+							
+							<img alt="Independence Day" src="http://s2.postimg.org/5xj4dl2ux/bourbon_cocktail.jpg" />
+							<div class="info">
+								<h2 class="title"><%= t.name %></h2>
+								<p class="desc">United States Holiday</p>
+							</div>
+							<div class="social">
+								<ul>
+									<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
+									<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+									<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
+						</li>
+					<% end %>
 
-					<li>
-						
-						<img alt="Independence Day" src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" />
-						<div class="info">
-							<h2 class="title">Independence Day</h2>
-							<p class="desc">United States Holiday</p>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li>
-						
-						<img alt="Independence Day" src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" />
-						<div class="info">
-							<h2 class="title">Independence Day</h2>
-							<p class="desc">United States Holiday</p>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li>
-						
-						<img alt="Independence Day" src="https://farm4.staticflickr.com/3100/2693171833_3545fb852c_q.jpg" />
-						<div class="info">
-							<h2 class="title">Independence Day</h2>
-							<p class="desc">United States Holiday</p>
-						</div>
-						<div class="social">
-							<ul>
-								<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-								<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-								<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
-							</ul>
-						</div>
-					</li>
+					
 				</ul>
             </div>
 		</div>
