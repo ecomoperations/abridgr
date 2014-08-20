@@ -9,8 +9,11 @@ Abridgr::Application.routes.draw do
   root 'welcome#index'
   get 'welcome/topics'
 
-  get 'topics/:topic', to: 'topics#index', as: :topic
+  get 'topic/:topic', to: 'topics#index', as: :topic
   resources :posts
+  resources :topics
+
+  get 'newtopic', to: 'topics#new'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

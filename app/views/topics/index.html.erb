@@ -1,8 +1,8 @@
 Hello
 
 
-<% @topics.each do |topic| %>
-	<%= link_to "#{topic.name}", topic_path(topic), :style => "color: black;"  %>
+<% @posts.each do |post| %>
+	<%= link_to "#{post.title}", post_path(post), :style => "color: black;"  %>
 	
 
 <% end %>
