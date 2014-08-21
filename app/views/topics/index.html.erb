@@ -1,8 +1,44 @@
-Hello
+
+            <div class="col-md-7 col-sm-12 col-md-offset-5 main-content">
+
+                <div class="nav">
+                	<%= link_to "Posts", "javascript:void(0);", :class => "select-posts active" %>
+                    
+                    <%= link_to "Categories", "javascript:void(0);", :class => "select-categories" %>
+                </div>
+            
+
+            <div class="home-page-posts animated fadeIn ">
+            <% @posts.each do |post| %>
+            
 
 
-<% @posts.each do |post| %>
-	<%= link_to "#{post.title}", post_path(post), :style => "color: black;"  %>
-	
+                <div class="post">
+                        <section>
+                            <div class="post-preview col-xs-10  no-gutter">
 
-<% end %>
+                            <h2><%= link_to "#{post.title}", post_path(post) %></h2>
+                            <p><%= post.body %> </p>
+
+                            <p class="meta">
+                                <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", topic_path(post.tag_list.first) %>
+                                <i class="fa fa-twitter pull-right"></i><i class="fa fa-facebook pull-right" ></i>
+                            </p>
+                            </div>
+
+                            
+
+                        </section>
+                </div>
+            <% end %>
+            </div>
+            <div class="home-page-categories hide animated fadeIn ">
+            	<ul class="event-list">
+            		Hello
+
+					
+				</ul>
+            </div>
+		</div>
+
+ 		

@@ -1,47 +1,4 @@
-		<div id="menu">
-            <ul>
-                <li><i class="entypo-home"></i><a href="#">Home</a></li>
-                <li><i class="entypo-user"></i><a href="#">John Smith</a></li>
-                <li><i class="entypo-star"></i><a href="favorites.html">Favorites</a></li>
-                <li><i class="entypo-chart-area"></i><a href="dashboard.html">Stats</a></li>
-            </ul>
-        </div>
 
-            <div class="sidebar col-md-5 col-sm-12 ">
-
-                <span class="menu-trigger side-writer-icon animated fadeInDown">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </span>
-
-                <!-- if the user has javascript disabled they can still use the menu -->
-                <noscript>
-                    <div class="no-js-menu">
-                        <ul>
-                            <li><i class="entypo-home"></i><a href="#">Home</a></li>
-                            <li><i class="entypo-user"></i><a href="#">John Smith</a></li>
-                            <li><i class="entypo-star"></i><a href="favorites.html">Favorites</a></li>
-                            <li><i class="entypo-chart-area"></i><a href="dashboard.html">Stats</a></li>
-                        </ul>
-                    </div>
-                </noscript>
-                <!-- end no script -->
-
-                <div class="site-info">
-                    <div class="primary-info">
-                    <h1>Abridgr</h1>
-                        <p>All News, All Viewpoints, Abrigd </p>
-
-                        
-                    </div>
-                    <div class="secondary-info">
-
-                        <p><a class="btn btn-writer btn-post" href="#"><i class="entypo-doc-text"></i>Join Us</a> or <a href="#">Share your story</a></p>
-                    </div>
-                </div>
-
-            </div>
             
             <div class="col-md-7 col-sm-12 col-md-offset-5 main-content">
 
@@ -62,7 +19,7 @@
                         <p><%= post.body %> </p>
 
                         <p class="meta">
-                            <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= post.tag_list %>
+                            <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", root_path %>
                             <i class="fa fa-twitter pull-right"></i><i class="fa fa-facebook pull-right" ></i>
                         </p>
                         </div>

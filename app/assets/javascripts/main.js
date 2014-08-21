@@ -1,6 +1,7 @@
 var jPM = {};
+var ready;
 
-$(function() {
+ready = $(function() {
 
     jPM = $.jPanelMenu({
 
@@ -168,4 +169,6 @@ $(function() {
 
     $('.hero-image-404').css("height", fullHeight );
 
+    
 });
+

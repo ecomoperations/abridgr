@@ -2,6 +2,7 @@ class TopicsController < ApplicationController
 
 	def index
 		@posts = Post.tagged_with(params[:topic])
+		@topic = Topic.find_by(params[:id])
 	end
 
 
