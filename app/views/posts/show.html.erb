@@ -40,14 +40,50 @@
     <div class="container">
         <div class="row">
 
-        <div id="menu">
-            <ul>
-                <li><i class="entypo-home"></i><a href="index.html">Home</a></li>
-                <li><i class="entypo-user"></i><a href="">John Smith</a></li>
-                <li><i class="entypo-star"></i><a href="favorites.html">Favorites</a></li>
-                <li><i class="entypo-chart-area"></i><a href="dashboard.html">Stats</a></li>
+          <div id="menu">
+              <ul>
+                  <li><i class="entypo-home"></i><a href="index.html">Home</a></li>
+                  <li><i class="entypo-user"></i><a href="">John Smith</a></li>
+                  <li><i class="entypo-star"></i><a href="favorites.html">Favorites</a></li>
+                  <li><i class="entypo-chart-area"></i><a href="dashboard.html">Stats</a></li>
 
-            </ul>
+              </ul>
+          </div>
+          <div class="col-xs-12 main-content single-content">
+            <p class="meta">
+                <%= @post.author %> in <%= link_to "#{@post.source}", "#{@post.site_url}" %></a> <i class="link-spacer"></i> <i class="fa fa-slack"></i> topic
+            </p>
+            <h1><%= @post.title %></h1>
+
+            <!-- <p class="subtitle">Like I said, never told...</p> -->
+
+
+            <p><%= @post.body %></p>
+
+        <div class="single-footer">
+            <div class="social clearfix">
+                <a class="btn btn-writer btn-like" href="#"><i class="entypo-heart"></i>Like</a>
+                
+
+                <a class="social-icon" href="#">
+                    <i class="entypo-twitter"></i>
+                </a>
+                <a class="social-icon" href="#">
+                    <i class="entypo-facebook-squared"></i>
+                </a>
+
+            </div>
+            <div class="category-list">
+                <p>Also found in</p>
+                <ul>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Life</a></li>
+                    <li><a href="#">Adventures</a></li>
+                </ul>
+            </div>
         </div>
+
+        </div><!-- main-content/col -->
+
         </div>
     </div>
