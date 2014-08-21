@@ -14,6 +14,8 @@ Abridgr::Application.routes.draw do
   resources :topics
 
   get 'newtopic', to: 'topics#new'
+
+  get "connect", to: 'welcome#connect'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
