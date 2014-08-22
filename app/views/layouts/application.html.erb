@@ -52,7 +52,11 @@
                     </div>
                     <div class="secondary-info">
 
-                        <p><a class="btn btn-writer btn-post" href="#"><i class="entypo-doc-text"></i>Join Us</a> or <a href="#">Share your story</a></p>
+                        <%= form_for @news_user, url: {controller: "news_user", action: "create"} do |f| %>
+                            <%= f.label :email %><br>
+                            <%= f.email_field :email, :placeholder => "Email" %>
+
+                        <% end %>
                     </div>
                 </div>
 

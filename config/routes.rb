@@ -16,6 +16,7 @@ Abridgr::Application.routes.draw do
   get 'newtopic', to: 'topics#new'
 
   get "connect", to: 'welcome#connect'
+  post '/news_user/create' => 'news_user#create'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
