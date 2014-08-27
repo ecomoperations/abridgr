@@ -4,7 +4,7 @@ class NewsUserController < ApplicationController
   	@news_user = NewsUser.new
   end
   def create
-    @user = NewsUser.new(params[news_user_params])
+    @user = NewsUser.new(news_user_params)
  
     respond_to do |format|
       if @user.save
