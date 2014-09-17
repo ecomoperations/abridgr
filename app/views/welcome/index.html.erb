@@ -19,8 +19,8 @@
                         <p><%= post.body %> </p>
 
                         <p class="meta">
-                            <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", root_path %>
-                            <i class="fa fa-twitter pull-right"></i><i class="fa fa-facebook pull-right" ></i>
+                            <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", topic_path(post.tag_list) %>
+                            <a class="fa fa-twitter pull-right twitter-share-button"  href="https://twitter.com/share"></a><i class="fa fa-facebook pull-right" ></i>
                         </p>
                         </div>
 
@@ -44,7 +44,7 @@
 							<div class="social">
 								<ul>
 									<li class="facebook" style="width:33%;"><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-									<li class="twitter" style="width:34%;"><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+									<li class="twitter twitter-share-button" style="width:34%;"><a href="https://twitter.com/share"><span class="fa fa-twitter"></span></a></li>
 									<li class="google-plus" style="width:33%;"><a href="#google-plus"><span class="fa fa-google-plus"></span></a></li>
 								</ul>
 							</div>
