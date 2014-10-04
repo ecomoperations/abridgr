@@ -3,6 +3,8 @@ require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
 Abridgr::Application.initialize!
+config.assets.precompile += %w( '*.svg', '*.eot', '*.woff', '*.ttf' )
+
 
 ActionMailer::Base.smtp_settings = {
   :address        => 'smtp.sendgrid.net',
