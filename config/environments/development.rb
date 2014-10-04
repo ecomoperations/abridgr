@@ -8,6 +8,8 @@ Abridgr::Application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
+  config.assets.precompile += %w(.svg .eot .woff .ttf)
+
   
 
   # Show full error reports and disable caching.
