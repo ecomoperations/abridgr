@@ -8,6 +8,10 @@ Abridgr::Application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
+  config.assets.paths << Rails.root.join("app", "assets", "fonts")
+  config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
+  config.assets.precompile << /\.(?:svg|eot|woff|ttf)$/
+  config.assets.precompile += %w( .svg .eot .woff .ttf )
 
   
 
