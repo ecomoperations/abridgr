@@ -8,7 +8,7 @@ class Post < ActiveRecord::Base
 
   
   def tag_list
-    topics.map(&:name).join(", ")
+    self.topics.map(&:name).join(", ")
   end
   
   def tag_list=(names)

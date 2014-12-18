@@ -2,7 +2,7 @@ class TopicsController < ApplicationController
 
 	def index
 		@posts = Post.tagged_with(params[:topic])
-		@topic = Topic.find_by(params[:id])
+		@topic = Post.tagged_with(params[:topic]).first
     @topics = Topic.all.distinct.order('created_at DESC')
 	end
 
