@@ -1,83 +1,30 @@
 <!DOCTYPE html>
-<html class="no-js">
-    
-    <body>
+    <div class="col-md-7 col-sm-12 col-md-offset-5 main-content">
 
-    <span class="menu-trigger writer-icon animated fadeInDown">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </span>
-    <div style="">
-
-        <!-- if the user has javascript disabled they can still use the menu -->
-        <noscript>
-            <div class="no-js-menu">
-                <ul>
-                    <li><i class="entypo-home"></i><a href="index.html">Home</a></li>
-                    <li><i class="entypo-user"></i><a href="#">John Smith</a></li>
-                    <li><i class="entypo-star"></i><a href="favorites.html">Favorites</a></li>
-                    <li><i class="entypo-chart-area"></i><a href="dashboard.html">Stats</a></li>
-                </ul>
-            </div>
-        </noscript>
-        <!-- end no script -->
-
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-        <div id="menu">
-            <ul>
-                <li><i class="entypo-home"></i><a href="index.html">Home</a></li>
-                <li><i class="entypo-user"></i><a href="">John Smith</a></li>
-                <li><i class="entypo-star"></i><a href="favorites.html">Favorites</a></li>
-                <li><i class="entypo-chart-area"></i><a href="dashboard.html">Stats</a></li>
-
-            </ul>
-        </div>
-        <div class="col-xs-12 main-content single-content">
-            <p class="meta">
-                <a class="" href="category.html">James Reddy</a> in <a class="" href="category.html">Storytime</a> <i class="link-spacer"></i> <i class="entypo-bookmark"></i> 23 minute read
-                <i class="fa fa-twitter pull-right"></i><i class="fa fa-facebook pull-right"></i>
-            </p>
-
-            <h1>A Great Story Never Told</h1>
-
-            <p class="subtitle">Like I said, never told...</p>
-
-            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, integer ut elit odio. </p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra ligula eget feugiat sollicitudin. Praesent accumsan, ante ut porttitor aliquet, odio felis mollis ante, et pretium arcu ipsum eget turpis. Quisque congue odio tristique, tincidunt arcu a, dignissim neque. Cras ligula erat, porta sed tristique at, sollicitudin sit amet ligula. Quisque eleifend elementum mauris, eu condimentum tortor ultrices a. Vestibulum ante ipsum primis in faucibus orci luctus </p>
-
-                <ul>
-                    <li>Maecenas pulvinar, turpis quis luctus tincidunt.</li>
-                    <li>Maecenas pulvinar, turpis quis luctus tincidunt.</li>
-                    <li>Maecenas pulvinar, turpis quis luctus tincidunt.</li>
-                    <li>Maecenas pulvinar, turpis quis luctus tincidunt.</li>
-                </ul>
-
-            <p>justo massa hendrerit mi, ut dapibus sem enim at nisl. Nullam ut mollis arcu. Quisque lobortis nibh diam, non molestie dui pretium et.</p>
-
-        <div class="single-footer">
-            <div class="social clearfix">
-                <div class="category-list">
-                <p>Also found in</p>
-                <ul>
-                    <li><a href="#">Stories</a></li>
-                    <li><a href="#">Life</a></li>
-                    <li><a href="#">Adventures</a></li>
-                </ul>
-            </div>
-
-                
-
-            </div>
+                <div class="nav">
+                    
+                    
+                    <i class="fa fa-slack"></i><%= link_to "Topics", "javascript:void(0);", :class => "select-categories" %>
+                </div>
             
+
+                        
+            <div class="home-page-posts animated fadeIn " id="my-topics">
+                <ul class="event-list">
+
+                    <%= render @topics %>
+
+                    
+                </ul>
+            </div>
+            <div id="infinite-scrolling" class="event-list">
+                
+                   <%= will_paginate @topics %>
+
+             </div>
+
+
         </div>
 
-        </div><!-- main-content/col -->
-
-
-        </div> 
+  
+        

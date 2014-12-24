@@ -11,6 +11,10 @@ class WelcomeController < ApplicationController
   	
   end
 
+  def topics 
+    @topics = Topic.paginate(page: params[:page], per_page: 5).order('created_at DESC')
+  end
+
   def connect
   end
 end
