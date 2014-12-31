@@ -16,5 +16,6 @@ class WelcomeController < ApplicationController
   end
 
   def connect
+    render layout: false
   end
 end

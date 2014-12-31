@@ -1,1 +1,50 @@
-<h1>Connect!</h1>
+                
+<head>
+  <title>Abridgr | What You Need to Know. Simply</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+      
+</head>
+<span class="menu-trigger writer-icon animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+    
+
+        <!-- if the user has javascript disabled they can still use the menu -->
+        <noscript>
+            <div class="no-js-menu">
+                <ul>
+                    <li><i class="entypo-home"></i><%= link_to "Home", root_path %></li>
+                    <li><i class="entypo-user"></i><%= link_to "Connect", connect_path %></li>
+                </ul>
+            </div>
+        </noscript>
+        <!-- end no script -->
+
+    
+<div class="intro-background">
+    <div class="container">
+        <div class="row">
+
+          <div id="menu">
+              <ul>
+                  <li><i class="entypo-home"></i><%= link_to "Home", root_path %></li>
+                <li><i class="entypo-user"></i><%= link_to "Connect", connect_path %></li>
+
+              </ul>
+          </div>
+    </div>
+    </div>
+    </div>
