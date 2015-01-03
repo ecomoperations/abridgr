@@ -26,8 +26,8 @@
         <noscript>
             <div class="no-js-menu">
                 <ul>
-                    <li><i class="entypo-home"></i><%= link_to "Home", root_path %></li>
-                    <li><i class="entypo-user"></i><%= link_to "Connect", connect_path %></li>
+                    <li><i class="fa fa-home"></i><%= link_to "Home", root_path %></li>
+                    <li><i class="fa fa-comments-o"></i><%= link_to "Connect", connect_path %></li>
                 </ul>
             </div>
         </noscript>
@@ -40,13 +40,13 @@
 
           <div id="menu">
               <ul>
-                  <li><i class="entypo-home"></i><%= link_to "Home", root_path %></li>
-                <li><i class="entypo-user"></i><%= link_to "Connect", connect_path %></li>
+                  <li><i class="fa fa-home"></i><%= link_to "Home", root_path %></li>
+                <li><i class="fa fa-comments-o"></i><%= link_to "Connect", connect_path %></li>
 
               </ul>
           </div>
           <div class="col-xs-12 main-content single-content">
-            <p class="meta">
+            <p class="meta meta-show">
                 <%= @post.author %> in <%= link_to "#{@post.source}", "#{@post.site_url}" %></a> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{@post.tag_list}", topic_path(@post.tag_list), :class => "topic-font" %>
             </p>
             <h1><%= @post.title %></h1>
