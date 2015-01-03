@@ -5,7 +5,7 @@
                               <h2><%= link_to "#{post.title}", post_path(post) %></h2>
                                     <p><%= post.body %> </p>
                               <p class="meta">
-                                 <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", topic_path("#{post.tag_list}") %>
+                                 <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", topic_path("#{post.tag_list}"), :class => "topic-font" %>
                                  <a class="fa fa-twitter pull-right twitter-share-butto" data-related="flanaganlyfe" target="_blank"   href="http://twitter.com/intent/tweet"></a><i class="fa fa-facebook pull-right" ></i>
                               </p>
                         </div>

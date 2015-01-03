@@ -47,18 +47,18 @@
           </div>
           <div class="col-xs-12 main-content single-content">
             <p class="meta">
-                <%= @post.author %> in <%= link_to "#{@post.source}", "#{@post.site_url}" %></a> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{@post.tag_list}", topic_path(@post.tag_list) %>
+                <%= @post.author %> in <%= link_to "#{@post.source}", "#{@post.site_url}" %></a> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{@post.tag_list}", topic_path(@post.tag_list), :class => "topic-font" %>
             </p>
             <h1><%= @post.title %></h1>
 
             <!-- <p class="subtitle">Like I said, never told...</p> -->
 
 
-            <p><%= @post.body %></p>
+            <p style="font-family: 'Lato', sans-serif;"><%= @post.body %></p>
 
         <div class="single-footer">
             <div class="social clearfix">
-                <a class="btn btn-writer btn-like" href="#"><i class="entypo-heart"></i>Like</a>
+                <!-- <a class="btn btn-writer btn-like" href="#"><i class="entypo-heart"></i>Like</a> -->
                 
 
                 <a class="social-icon" href="#">
@@ -70,12 +70,7 @@
 
             </div>
             <div class="category-list">
-                <p>Also found in</p>
-                <ul>
-                    <li><a href="#">Stories</a></li>
-                    <li><a href="#">Life</a></li>
-                    <li><a href="#">Adventures</a></li>
-                </ul>
+                <!--  -->
             </div>
         </div>
 
