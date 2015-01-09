@@ -6,7 +6,7 @@
                                     <p><%= post.body %> </p>
                               <p class="meta">
                                  <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", topic_path("#{post.tag_list}"), :class => "topic-font" %>
-                                 <a class="fa fa-twitter pull-right twitter-share-butto" target="_blank"   href=<%= "http://twitter.com/intent/tweet?text=" +  URI.encode(post.title) + "&url=http://abridgr.com" + URI.encode(post_path(post)) + "&via=abrdgr"  %> ></a><a class="fa fa-facebook pull-right" target="_blank" href=<%= "https://www.facebook.com/dialog/feed?app_id=975184029176688&display=popup&caption=" + URI.encode(post.body) + "&link=http://abridgr.herokuapp.com" + URI.encode(post_path(post)) %>></a>
+                                 <a class="fa fa-twitter pull-right twitter-share-butto" target="_blank"   href=<%= "http://twitter.com/intent/tweet?text=" +  URI.encode(post.title) + "&url=http://abridgr.com" + URI.encode(post_path(post)) + "&via=abrdgr"  %> ></a><a class="fa fa-facebook pull-right" target="_blank" href=<%= "https://www.facebook.com/dialog/feed?app_id=975184029176688&display=popup&caption=" + URI.encode(post.body) + "&link=http://abridgr.herokuapp.com" + URI.encode(post_path(post)) + "&redirect_uri=https://www.facebook.com/abridgr" %>></a>
                               </p>
                         </div>
                         
