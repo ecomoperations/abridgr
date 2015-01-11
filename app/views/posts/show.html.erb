@@ -61,12 +61,13 @@
                 <!-- <a class="btn btn-writer btn-like" href="#"><i class="entypo-heart"></i>Like</a> -->
                 
 
-                <a class="social-icon" href="#">
-                    <i class="entypo-twitter"></i>
-                </a>
-                <a class="social-icon" href="#">
-                    <i class="entypo-facebook-squared"></i>
-                </a>
+                
+                    <a class="fa fa-twitter social-icon" target="_blank"  href=<%= "http://twitter.com/intent/tweet?text=" +  URI.encode(@post.title) + "&url=http://abridgr.com" + URI.encode(post_path(@post)) + "&via=abrdgr"  %> ></a></a>
+                
+                
+                    <a class="fa fa-facebook-square social-icon" target="_blank" href=<%= "https://www.facebook.com/dialog/feed?app_id=975184029176688&display=popup&caption=" + URI.encode(@post.body) + "&link=http://abridgr.herokuapp.com" + URI.encode(post_path(@post)) + "&redirect_uri=https://abridgr.herokuapp.com" %>></a>
+                
+               
 
             </div>
             <div class="category-list">
