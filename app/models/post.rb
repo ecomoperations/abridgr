@@ -2,6 +2,17 @@ class Post < ActiveRecord::Base
   has_many :taggings
   has_many :topics, through: :taggings
 
+  def slug
+    title.downcase.gsub(" ", "-")
+  end
+
+
+  def to_param
+    "#{id}-#{slug}"
+  end
+
+
+
   def self.tagged_with(name)
     Topic.find_by_name!(name).posts
   end
