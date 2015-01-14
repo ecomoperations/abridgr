@@ -32,10 +32,16 @@
     <%= f.text_field :site_url %>
   </div>
   <div class="field">
-    <%= f.label :tag_list %><br>
+    <%= f.label :tag_list, "Topic" %><br>
     <%= f.text_field :tag_list %>
+  </div>
+  <div>
+    <%= f.label :headline %>
+    <%= f.check_box :headline %>
   </div>
   <div class="actions">
     <%= f.submit %>
   </div>
+
+
 <% end %>
