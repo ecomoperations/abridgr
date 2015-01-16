@@ -14,6 +14,7 @@ gem 'sprockets_better_errors'
 gem 'sass-rails', '~> 4.0.0'
 gem 'compass-rails'
 
+gem 'heroku-deflater', :group => :production
 
 
 # Use Uglifier as compressor for JavaScript assets
