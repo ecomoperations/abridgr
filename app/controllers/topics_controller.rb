@@ -8,21 +8,28 @@ class TopicsController < ApplicationController
 
 
 	def new
-    
-		@topic = Topic.new
-	end
+    if current_user.admin?
+		  @topic = Topic.new
+    else 
+      redirect_to root_path
+    end	
+  end
 
 	def create
-    @topic = Topic.new(topic_params)
+    if current_user.admin?
+      @topic = Topic.new(topic_params)
 
-    respond_to do |format|
-      if @topic.save
-        format.html { redirect_to "/", notice: 'Post was successfully created.' }
-        format.json { render action: 'show', status: :created, location: @post }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @post.errors, status: :unprocessable_entity }
+      respond_to do |format|
+        if @topic.save
+          format.html { redirect_to "/", notice: 'Post was successfully created.' }
+          format.json { render action: 'show', status: :created, location: @post }
+        else
+          format.html { render action: 'new' }
+          format.json { render json: @post.errors, status: :unprocessable_entity }
+        end
       end
+    else
+      redirect_to root_path
     end
   end
 private

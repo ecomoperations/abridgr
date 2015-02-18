@@ -57,7 +57,7 @@
 
                         <%= form_for @news_user, url: {controller: "news_user", action: "create"} do |f| %>
                             <%= f.label :email %><br>
-                            <%= f.email_field :email, :placeholder => "Email" %>
+                            <%= f.email_field :email, :placeholder => "Email", :class => "form-control" %>
 
                         <% end %>
                     </div>
