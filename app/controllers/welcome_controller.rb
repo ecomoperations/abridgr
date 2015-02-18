@@ -3,7 +3,7 @@ class WelcomeController < ApplicationController
   	# @topics = Topic.paginate(page: params[:page], per_page: 5).order('created_at DESC')
     @topics = Topic.all.order('created_at DESC').first(5)
 
-    @posts = Post.where(headline: true).paginate(page: params[:page], per_page: 4).order('created_at DESC')
+    @posts = Post.where(headline: true).paginate(page: params[:page], per_page: 7).order('created_at DESC')
   	respond_to do |format|
   		format.html
   		format.js

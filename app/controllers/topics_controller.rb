@@ -1,7 +1,7 @@
 class TopicsController < ApplicationController
 
 	def index
-		@posts = Post.tagged_with(params[:topic]).paginate(page: params[:page], per_page: 4).order('created_at DESC')
+		@posts = Post.tagged_with(params[:topic]).paginate(page: params[:page], per_page: 7).order('created_at DESC')
 		@topic = Post.tagged_with(params[:topic]).first
     @topics = Topic.all.distinct.order('created_at DESC').first(5)
 	end
