@@ -1,7 +1,3 @@
 class RegistrationsController < Devise::RegistrationsController
-    layout false
-
-  def new
-  	
-  end
+    layout false  
 end
