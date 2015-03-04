@@ -5,7 +5,7 @@
                               <h2><%= link_to "#{post.title}", post_path(post) %></h2>
                                     <p><%= post.body %> </p>
                               <p class="meta">
-                                 <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack"></i> <%= link_to "#{post.tag_list}", topic_path("#{post.tag_list}"), :class => "topic-font" %>
+                                 <%= post.author %> in <%= link_to "#{post.source}", "#{post.site_url}", :target => "_blank" %> <i class="link-spacer"></i> <i class="fa fa-slack" style="color: black;"></i> <%= link_to "#{post.tag_list}", topic_path("#{post.tag_list}"), :class => "topic-font", :style => "color: black;" %>
                                  <a class="fa fa-twitter pull-right twitter-share-butto" target="_blank"   href=<%= "http://twitter.com/intent/tweet?text=" +  URI.encode(post.title) + "&url=http://abridgr.com" + URI.encode(post_path(post)) + "&via=abrdgr"  %> ></a><a class="fa fa-facebook pull-right" target="_blank" href=<%= "https://www.facebook.com/dialog/feed?app_id=1475336216022247&display=popup&caption=" + URI.encode(post.body) + "&link=http://abridgr.com" + URI.encode(post_path(post)) + "&redirect_uri=https://abridgr.com" %>></a>
                               </p>
                         </div>
