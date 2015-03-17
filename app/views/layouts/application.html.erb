@@ -56,8 +56,8 @@
                     <div class="secondary-info">
 
                         <%= form_for @news_user, url: {controller: "news_user", action: "create"} do |f| %>
-                            <%= f.label :email %><br>
-                            <%= f.email_field :email, :placeholder => "Email", :class => "form-control" %>
+                            <%= f.label :email, "Personalize Your Feed Waiting List" %><br>
+                            <%= f.email_field :email, :placeholder => "Email (eg. ElonMusk@aol.com)", :class => "form-control" %>
 
                         <% end %>
                     </div>
